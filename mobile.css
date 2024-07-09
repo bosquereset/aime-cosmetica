@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+a{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: bisque;
+    border: none;
+}
+
+html, body{
+width: 100%;
+height: auto;
+font-size: 62.5%;
+background-color: green;
+background-image: url(./bg.webp);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+section{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+}
+
+article{
+    width: 100%;
+    height: auto;
+    border: .111rem solid rgba(255, 228, 196, 0.333);
+    text-align: center;
+    border-radius: 1.2rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    background-color: rgba(255, 228, 196, 0.70);
+}
+
+article h2{
+font-family: "Milonga", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3.6rem;
+color: rgb(34, 34, 34);
+padding: .999rem;
+}
+
+
+article p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+color: rgb(34, 34, 34);
+padding: .999rem;
+text-align: left;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    padding: .333rem;
+}
+
+.logo-whatsapp{
+    width: 33%;
+    height: auto;
+    padding: .333rem;
+}
+
+button{
+    color: bisque;
+    background-color: green;
+    width: 100%;
+    height: auto;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 1.2rem;
+}
+
+footer{
+    background-color: green;
+    padding: 1.2rem;
+    text-align: center;
+}
